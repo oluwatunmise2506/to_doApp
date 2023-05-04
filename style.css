@@ -1,0 +1,43 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-between;
+}
+
+input[type=checkbox] {
+    transform: scale(1.9);
+    
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    justify-content: space-between;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 
+.item-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+.item-button{
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.checkmark{
+    background-color: red;
+    
+}
+
+#itemText{
+    height: 30px;
+    max-width: 250px;
+}
